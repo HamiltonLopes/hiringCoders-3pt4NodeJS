@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-fundamentos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "HamiltonLopes",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.16",
+    "query-string": "^7.1.1",
+    "url": "^0.11.0"
+  }
+}
